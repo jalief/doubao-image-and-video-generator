@@ -64,6 +64,9 @@ class DoubaoApp:
                 "prompt": prompt,
                 "size": size,
                 "response_format": response_format,
+                "extra_body": {
+                    "watermark": watermark,
+                },
                 "n": 1  # 生成图片数量
             }
             

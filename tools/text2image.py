@@ -42,6 +42,9 @@ class Text2ImageTool(Tool):
                 prompt=prompt,
                 size=size,
                 response_format=response_format,
+                extra_body={
+                    "watermark": True,
+                },
                 n=1,
             )
             
